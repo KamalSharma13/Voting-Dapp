@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.login{
+  height: 100vh;
+  background-color: rgb(3, 3, 54);
+  color:blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn{
+  border: none;
+  background-color: blueviolet;
+  padding: 10px;
+  margin-top: 2rem;
+  border-radius: 15px;
+}
+
+.btn:hover{
+  background-color: rgb(54, 21, 85);
+  color: white;
+}
+
+.connected{
+  height: 100vh;
+  background-color: rgb(3, 3, 54);
+  color:blueviolet;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.connected h1{
+  font-size: 3rem;
+  margin: 5rem;
+}
+
+.connected p{
+  font-size: 1rem;
+  margin: 2rem;
+  margin-top: 0;
+}
+span {
+  color: white;
+}
+
+.finished{
+  height: 100vh;
+  background-color: rgb(3, 3, 54);
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inputs{
+  margin: 30px;
+}
+
+.inputs input{
+  border: navy;
+  height: 2rem;
+  width: 100px;
+  background-color: blueviolet;
+  color: white;
+  margin: 2rem;
+  border-radius: 10px;
+}
+::-webkit-input-placeholder{
+  color: white;
+}
+
+table tr{
+  margin: 2rem;
+  padding: 2rem;
+  color: white;
+  border:  none;
+ 
+}
+table{
+  width: 50%;
+  height: 100%;
+  margin-bottom: 2rem;
+}
+
+table td{
+text-align: center;
+color: white;
+}
+table  .votecount{
+text-align: center;
+color: rgb(243, 32, 32);
+}
